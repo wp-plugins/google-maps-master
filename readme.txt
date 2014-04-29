@@ -41,7 +41,7 @@ Built with html5, fast page load times, no conflicts and uses the latest Google 
 * Free Text Field: use it as you which, example Read More link
 * auto-hides empty fields per marker
 * TechGasp Radioactive Widget... looks awesome!!!, Includes TechGasp Designed (Before Doomsday, Green Radiation, Blue Aftermath, Red Dawn, Orange Mushroom and Black Fallout)... read more below and check screenshots
-* TechGasp Information Widget... The perfect widget to display the latest google maps V3 traffic, transit, weather and bicycling map informations with incredibly beautiful design. Includes 4 Information Overlays for fast and easy deployments (Traffic, Transit, Bicycling and Incredible Weather Forecast). The Weather Information contains accurate weather forecasts if you click the forecast icon, according to the zoom level of the map, it will also display real time cloud overlays. OMG!!! read more below and check screenshots
+* TechGasp Information Widget... The perfect widget to display the latest google maps V3 traffic, transit, weather and bicycling map informations with incredibly beautiful design. Includes 4 Information Overlays for fast and easy deployments (Traffic, Transit, Bicycling and Incredible Weather Forecast). The Weather Information contains accurate weather forecasts if you click the forecast icon, according to the zoom level of the map, it will also display real time clouds overlay. OMG!!! read more below and check screenshots
 
 IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
@@ -103,7 +103,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Real-Time Bicycling
 * Real-Time Weather Forecasts
 * Accurate Weather Forecasts if you click the forecast icon
-* According to the zoom level of the map, it will also display real time cloud overlays
+* According to the zoom level of the map, it will also display real time clouds overlay
 * Option to display Weather in Fahrenheit or Celsius (metric)
 * Includes 1 Marker
 * Includes all Marker options
@@ -178,7 +178,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 1. Google Maps Master Marker Icons
 2. Google Maps Basic Widget Roadmap + Viral Widget with Google Plus and Google Share
-3. Google Maps Basic Widget Satellite
+3. Google Maps Information Widgets
 4. Google Maps Advanced Widget with 5 markers selected, Roadmap view
 5. Google Maps Master Radioactive Widgets
 6. Google Maps Advanced Widget 3D Roadmap View
