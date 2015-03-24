@@ -28,13 +28,20 @@ class google_maps_master_widget_viral extends WP_Widget {
 		// Display the widget title
 	if ( $google_maps_title ){
 		if (empty ($google_maps_title_new)){
-		$google_maps_title_new = get_option('google_maps_master_name');
-		}
+			if(is_multisite()){
+			$google_maps_title_new = get_site_option('google_maps_master_name');
+			}
+			else{
+			$google_maps_title_new = get_option('google_maps_master_name');
+			}
 		echo $before_title . $google_maps_title_new . $after_title;
+		}
+		else{
+		echo $before_title . $google_maps_title_new . $after_title;
+		}
 	}
 	else{
 	}
-
 	//Display Google Plus
 	if ( $show_google_plus ){
 		//Prepare Google Plus Bubble Count

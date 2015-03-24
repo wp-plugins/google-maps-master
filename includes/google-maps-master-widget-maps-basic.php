@@ -60,9 +60,17 @@ class google_maps_master_widget_maps_basic extends WP_Widget {
 		// Display the widget title
 	if ( $google_maps_title ){
 		if (empty ($google_maps_title_new)){
-		$google_maps_title_new = get_option('google_maps_master_name');
-		}
+			if(is_multisite()){
+			$google_maps_title_new = get_site_option('google_maps_master_name');
+			}
+			else{
+			$google_maps_title_new = get_option('google_maps_master_name');
+			}
 		echo $before_title . $google_maps_title_new . $after_title;
+		}
+		else{
+		echo $before_title . $google_maps_title_new . $after_title;
+		}
 	}
 	else{
 	}
@@ -107,7 +115,7 @@ class google_maps_master_widget_maps_basic extends WP_Widget {
 			$google_maps_marker1_longitude = $google_maps_longitude;
 			$google_maps_marker1_avatar = plugins_url('images/techgasp_empty_avatar.png', dirname(__FILE__));
 			}
-		echo '<style>#map_basic img{max-width:none;}</style>' .
+		echo '<style>#map_basic img{max-width:none; background:none;}</style>' .
 		'<div id="map_basic" style="width:'.$google_maps_width.'px; height:'.$google_maps_height.'px;"></div>' .
 		'<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>' .
 		'<script type="text/javascript">' .
