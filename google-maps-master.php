@@ -2,7 +2,7 @@
 /**
 Plugin Name: Google Maps Master
 Plugin URI: http://wordpress.techgasp.com/google-maps-master/
-Version: 4.4.1.4
+Version: 4.4.1.5
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: google-maps-master
@@ -33,9 +33,9 @@ define( 'GOOGLE_MAPS_MASTER_URL', plugin_dir_url( __FILE__ ) );
 ///////DEFINE ID//////
 define( 'GOOGLE_MAPS_MASTER_ID', 'google-maps-master');
 ///////DEFINE VERSION///////
-define( 'GOOGLE_MAPS_MASTER_VERSION', '4.4.1.4' );
+define( 'GOOGLE_MAPS_MASTER_VERSION', '4.4.1.5' );
 global $google_maps_master_version, $google_maps_master_name;
-$google_maps_master_version = "4.4.1.4"; //for other pages
+$google_maps_master_version = "4.4.1.5"; //for other pages
 $google_maps_master_name = "Google Maps Master"; //pretty name
 if( is_multisite() ) {
 update_site_option( 'google_maps_master_installed_version', $google_maps_master_version );
