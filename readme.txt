@@ -3,7 +3,7 @@ Contributors: TechGasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, google, maps, google map, directions, driving, api, v3
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 4.4.1.5
+Stable tag: 4.4.2.0
 License: GPLv2 or later
 
 Google Maps Master is the professional wordpress plugin to display locations with Google Maps V3.
@@ -188,6 +188,11 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 
 == Changelog ==
+
+= 4.4.2.0 =
+* Includes several important fixes and speed-up's
+* New pre-installation flight
+* New text-domain because of updater
 
 = 4.4.1.5 =
 * Wordpress 4.2 ready
